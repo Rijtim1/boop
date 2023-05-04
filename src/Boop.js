@@ -4,6 +4,7 @@ import { collection, addDoc } from "firebase/firestore";
 import { faker } from "@faker-js/faker";
 import './static-files/index.css'
 
+
 function Boop() {
 
   const [username, setUsername] = useState(faker.internet.userName());
