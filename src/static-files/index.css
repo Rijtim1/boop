@@ -2,52 +2,86 @@
 @tailwind components;
 @tailwind utilities;
 
+/* .aero {
+  color: #00c2f5 ff;
+}
+
+.salmon-pink {
+  color: #ff999d ff;
+}
+
+.nyanza {
+  color: #e4f0d0 ff;
+}
+
+.tea-green {
+  color: #c2d8b9 ff;
+}
+
+.polynesian-blue {
+  color: #044389 ff;
+}
+
+body{
+  background-color: #ff999d;
+}
+
+h2 {
+  color: #e4f0d0;
+}
+
+p {
+  color: #c2d8b9;
+} */
+
 .card {
-    display: flex;
-    align-items: center;
-    padding: 1rem;
-    border-radius: 0.5rem;
-    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
-    transition: 0.3s;
-  }
-  
-  .card img {
-    width: 4rem;
-    height: 4rem;
-    object-fit: cover;
-    border-radius: 50%;
-    margin-right: 1rem;
-  }
-  
-  .card-body {
-    flex: 1;
-  }
-  
-  .card-title {
-    font-size: 1.5rem;
-    margin: 0;
-  }
-  
-  .card-text {
-    margin: 0.5rem 0;
-  }
-  
-  .card-stats {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .card-stat {
-    text-align: center;
-  }
-  
-  .stat-value {
-    font-size: 1.5rem;
-    font-weight: bold;
-  }
-  
-  .stat-label {
-    font-size: 0.875rem;
-    color: gray;
-  }
-  
+  /* background-color: #00c2f5; */
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.card img {
+  width: 4rem;
+  height: 4rem;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.card-body {
+  flex: 1;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.card-text {
+  margin: 0.5rem 0;
+}
+
+.card-stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-stat {
+  text-align: center;
+}
+
+.stat-value {
+  font-size: 1.5rem;
+  font-weight: bold;
+  /* color:#c2d8b9; */
+}
+
+.stat-label {
+  font-size: 0.875rem;
+  color: gray;
+  /* color: #e4f0d0; */
+}
