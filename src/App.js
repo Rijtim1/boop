@@ -1,13 +1,12 @@
-import Boop from "./Boop";
-import BoopDisplay from "./BoopDisplay";
-import Header from "./Header";
+import React from "react";
+import Boop from "./boop-component/Boop"
+import CreateBoop from "./CreateBoop";
 
 function App() {
   return (
     <>
-      <Header />
-      <BoopDisplay />
       <Boop />
+      <CreateBoop />
     </>
   );
 }

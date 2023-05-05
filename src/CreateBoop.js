@@ -5,7 +5,7 @@ import { faker } from "@faker-js/faker";
 import './static-files/index.css'
 
 
-function Boop() {
+function CreateBoop() {
 
   const [username, setUsername] = useState(faker.internet.userName());
   const [message, setMessage] = useState(faker.lorem.sentence());
@@ -88,4 +88,4 @@ function Boop() {
   );
 }
 
-export default Boop;
+export default CreateBoop;
