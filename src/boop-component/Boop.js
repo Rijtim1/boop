@@ -8,13 +8,6 @@ const DislikeButton = React.lazy(() => import("./Dislike"));
 const FaFlag = React.lazy(() => import("react-icons/fa"));
 
 function Boop() {
-  // boop is a 3x4 table, where 0,0 will have the avatar, 0,1 and 0,2 will merge and that will display the user name,
-  // 1,0 and 1,1 and 1,2 will merge and that will display the message,
-  // 2,0 likes
-  // 2,1 dislikes
-  // 2,3 report
-  // 3,0, 3,1 and 3,2 will merge and that will display the time
-
   const [boops, setBoops] = useState([]);
 
   useEffect(() => {

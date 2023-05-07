@@ -20,5 +20,4 @@ function LikeButton({ boopId, count }) {
   );
 }
 
-
 export default LikeButton;
